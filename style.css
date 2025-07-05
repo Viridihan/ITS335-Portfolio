@@ -46,7 +46,7 @@ main {
 div {
     text-align: left;
     margin-top: 150px;
-    margin-left: 200px;
+    padding: 50px;
 }
 
 h1 {

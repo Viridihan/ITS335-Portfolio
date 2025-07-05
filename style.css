@@ -46,7 +46,7 @@ main {
 .home-image-container {
     text-align: left;
     margin-top: 150px;
-    padding: 50px;
+    margin-left: 20px;
     overflow: hidden;
 }
 

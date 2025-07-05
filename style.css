@@ -43,9 +43,10 @@ main {
     margin-right: 100px;
 }
 
-img {
+div {
+    text-align: left;
     margin-top: 150px;
-    margin-right: 800px;
+    margin-left: 200px;
 }
 
 h1 {

@@ -43,10 +43,11 @@ main {
     margin-right: 100px;
 }
 
-div {
+.home-image-container {
     text-align: left;
     margin-top: 150px;
     padding: 50px;
+    overflow: hidden;
 }
 
 h1 {

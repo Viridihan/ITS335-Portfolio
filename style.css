@@ -37,16 +37,15 @@ nav li a:hover {
     color: #8d609c;
 }
 
-img {
-    text-align: left;
-    margin-top: 150px;
-    margin-right: 100px;
-}
-
 main {
     padding: 50px;
     text-align: right;
     margin-right: 100px;
+}
+
+img {
+    margin-top: 150px;
+    margin-right: 800px;
 }
 
 h1 {

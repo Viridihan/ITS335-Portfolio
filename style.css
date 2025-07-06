@@ -37,32 +37,51 @@ nav li a:hover {
     color: #8d609c;
 }
 
-main {
-    padding: 50px;
-    text-align: right;
-    margin-right: 100px;
+.home-image {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    gap: 90px;                 
+    margin: 40px 0;            
 }
 
-div {
-    margin-top: 150px;
+.home-image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);       
 }
 
-.home-image-container {
-    text-align: left;
-    margin-left: 100px;
-    overflow: hidden;
+.home-text-container {
+    max-width: 400px; 
+    text-align: center;
+    font-size: 22px;
+    color: #333;        
 }
 
-.home-title {
-    font-size: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: right;
+.recipe-flex {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    gap: 60px;                 
+    margin: 40px 0;
 }
 
-.home-text {
-    margin-right: 50px;
-    padding: 15px;
+.recipe-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.recipe-image-container img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -70,6 +89,21 @@ footer {
     color: #fff;
     padding: 5px;
     text-align: center;
-    position: absolute;
+    width: 100%;
+    position: fixed;
+    left: 0;
     bottom: 0;
+    z-index: 100;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+}
+
+body {
+    padding-bottom: 60px; 
+    margin-bottom: 60px; 
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
 }
